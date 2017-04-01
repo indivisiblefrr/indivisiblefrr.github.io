@@ -81,14 +81,14 @@
 						http://indivisiblefrr.org/about.html</a>
 					</p>
 					<p>Do you agree?  (Y/N)</p>
-					<input type="checkbox" name="Rulesanswer" value="yes" class="group-required">Yes<br>
+					<input type="checkbox" name="Rulesanswer" value="yes" required>Yes<br>
   					<input type="checkbox" name="Rulesanswer" value="no">No<br>
 					<span id="rules-invalid" style="visibility:hidden">
 					You must check one of these options</span>
 			    	</fieldset>
 				<fieldset class="pure-group">
 					<p>Are you either a CO resident or CO registered voter?  (Y/N)</p>
-					<input type="checkbox" name="COresident" value="yes" class="group-required">Yes<br>
+					<input type="checkbox" name="COresident" value="yes" required>Yes<br>
   					<input type="checkbox" name="COresident" value="no">No<br>
 					<span id="rules-invalid" style="visibility:hidden">
 					You must check one of these options</span>
@@ -158,6 +158,13 @@
 	
     <!--reCAPTCHA -->
     <script src='https://www.google.com/recaptcha/api.js'></script>
+	
+    <script>
+function validation() {
+    var x = document.getElementById("myCheck").required;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
 </body>
 
 </html>
