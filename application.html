@@ -50,32 +50,53 @@
                     </h2>
                     <hr>
                 </div>
-		            <div class="col-lg-12">
-				          <form id="gform" method="POST" class="pure-form pure-form-stacked"
+		<div class="col-lg-12">
+			<div>
+			    <p>Please sign up for our mailing list: 
+				    <a href="http://indivisiblefrr.org/mailinglist.html">
+				    http://indivisiblefrr.org/mailinglist.html</a>
+ 			    </p>
+		        </div>
+			<div>
+			    <p>Please sign up for our mailing list: 
+				    <a href="http://indivisiblefrr.org/mailinglist.html">
+					    http://indivisiblefrr.org/mailinglist.html</a>
+ 			    </p>
+		        </div>
+			<form id="gform" method="POST" class="pure-form pure-form-stacked"
   				          action="https://script.google.com/macros/s/AKfycbwXfC2WQ_KEAJuFvdE6gKikE8qvA4_HCe2x0k2Lg-Jh73YDEdF3/exec">
     				      <!-- change the form action to your script url -->
-    			          <fieldset class="pure-group">
-      				        <label for="name">First Name: </label>
-      				      <input id="Firstname" name="Firstname" placeholder="" required/>
-    			          </fieldset>
-
-                    <fieldset class="pure-group">
-                        <label for="Lastname">Last Name: </label>
-                        <input id="Lastname" name="Lastname" placeholder="" />
-                    </fieldset>
-                    
-                    <fieldset class="pure-group">
-                        <label for="email"><em>Your</em> Email Address:</label>
-                        <input id="email" name="email" type="email" value=""
-                        required placeholder="your.name@email.com"/>
-                        <span id="email-invalid" style="visibility:hidden">
-                        Must be a valid email address</span>
-                    </fieldset>
-                    <button class="button-success pure-button button-xlarge">
-                      <i class="fa fa-paper-plane"></i>&nbsp;Send
-                      </button> 
-  		            </form>
-		            </div>
+    				<fieldset class="pure-group">
+      					<label for="name">First Name: </label>
+      				        <input id="Firstname" name="Firstname" placeholder="" required/>
+    			        </fieldset>
+				<fieldset class="pure-group">
+					<label for="Lastname">Last Name: </label>
+					<input id="Lastname" name="Lastname" placeholder="" />
+				</fieldset>
+			        <fieldset class="pure-group">
+					<label for="email"><em>Your</em>Facebook Email Address:</label>
+					<input id="facebookemail" name="facebook_email" type="email" value=""
+					required placeholder="your.name@email.com"/>
+					<span id="email-invalid" style="visibility:hidden">
+					Must be a valid email address</span>
+			    	</fieldset>
+			        <fieldset class="pure-group">
+					<p>IFRR Rules:  <a href="http://indivisiblefrr.org/about.html"></a></p>
+					<p>Do you agree?  (Y/N)
+					<input type="checkbox" name="rules_yes" value="yes">Yes<br>
+  					<input type="checkbox" name="rules_no" value="no">No<br>
+					<span id="rules-invalid" style="visibility:hidden">
+					You must check one of these options</span>
+			    	</fieldset>
+				<fieldset class="pure-group">
+					
+			    	</fieldset>
+                    		<button class="button-success pure-button button-xlarge">
+                      			<i class="fa fa-paper-plane"></i>&nbsp;Send
+                      		</button> 
+  		        </form>
+		 </div>
 		    
   <!-- Customise the Thankyou Message People See when they submit the form: -->
   <div style="display:none;" id="thankyou_message">
