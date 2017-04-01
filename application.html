@@ -82,33 +82,33 @@
 					</p>
 					<p>Do you agree?  (Y/N)</p>
 					<input type="checkbox" name="Rulesanswer" value="yes" required>Yes<br>
-  					<input type="checkbox" name="Rulesanswer" value="no">No<br>
+  					<input type="checkbox" name="Rulesanswer" value="no" required>No<br>
 					<span id="rules-invalid" style="visibility:hidden">
 					You must check one of these options</span>
 			    	</fieldset>
 				<fieldset class="pure-group">
 					<p>Are you either a CO resident or CO registered voter?  (Y/N)</p>
 					<input type="checkbox" name="COresident" value="yes" required>Yes<br>
-  					<input type="checkbox" name="COresident" value="no">No<br>
-					<span id="rules-invalid" style="visibility:hidden">
+  					<input type="checkbox" name="COresident" value="no" required>No<br>
+					<span id="COresident-invalid" style="visibility:hidden">
 					You must check one of these options</span>
 			    	</fieldset>
 				<fieldset class="pure-group">
 					<label for="Q1">Q1: How do you hear about us?</label>
 					<textarea name="Q1_answer" required></textarea>
-					<span id="rules-invalid" style="visibility:hidden">
+					<span id="Q1-invalid" style="visibility:hidden">
 					You must answer this question</span>
 				</fieldset>
 				<fieldset class="pure-group">
 					<label for="Q2">Q2: Why do you want to join IFRR?</label>
 					<textarea name="Q2_answer" required></textarea>
-					<span id="rules-invalid" style="visibility:hidden">
+					<span id="Q2-invalid" style="visibility:hidden">
 					You must answer this question</span>
 				</fieldset>
 				<fieldset class="pure-group">
 					<label for="Q3">Q3: What or how would you like to contribute?</label>
-					<textarea name="Q2_answer" required></textarea>
-					<span id="rules-invalid" style="visibility:hidden">
+					<textarea name="Q3_answer" required></textarea>
+					<span id="Q3-invalid" style="visibility:hidden">
 					You must answer this question</span>
 				</fieldset>
                     		<button class="button-success pure-button button-xlarge">
