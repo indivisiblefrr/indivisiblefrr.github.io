@@ -77,14 +77,14 @@
 					Must be a valid email address</span>
 			    	</fieldset>
 			        <fieldset class="pure-group">
-					<p>IFRR Rules:  <a href="http://indivisiblefrr.org/about.html">
+					<label for="rule1">IFRR Rules:  <a href="http://indivisiblefrr.org/about.html">
 						http://indivisiblefrr.org/about.html</a>
-					</p>
-					<p>Do you agree?  (Y/N)</p>
-					<input type="checkbox" name="Rulesanswer" value="yes" required>Yes<br>
-  					<input type="checkbox" name="Rulesanswer" value="no" required>No<br>
-					<span id="rules-invalid" style="visibility:hidden">
-					You must check one of these options</span>
+						<br>
+						<p>Do you agree?  (Y/N)</p>
+					</label>
+  					<input type="radio" name="rulesgroup" id="rules_yes" value="Yes" required><br>
+  					<label for="input2">2:</label>
+  					<input type="radio" name="rulesgroup" id="rules_no" value="No"><br>
 			    	</fieldset>
 				<fieldset class="pure-group">
 					<p>Are you either a CO resident or CO registered voter?  (Y/N)</p>
