@@ -54,13 +54,13 @@
 			<form id="gform" method="POST" class="pure-form pure-form-stacked"
   				          action="https://script.google.com/macros/s/AKfycbyiaUUNF1y8E-6ntAIZ5YAyI7LA3HMzuASj2n9fAi4x-0pdoMk/exec">
     				      <!-- change the form action to your script url -->
-    				<div>
+    				<p>Please respond within 48 hours </p>
+				<div>
 			    		<p>Please sign up for our mailing list: 
 				    	<a href="http://indivisiblefrr.org/mailinglist.html">
 				    	http://indivisiblefrr.org/mailinglist.html</a>
  			    		</p>
 		        	</div>
-				<p>Please respond within 48 hours </p>
 				<fieldset class="pure-group">
       					<label for="Firstname">First Name: </label>
       				        <input id="Firstname" name="Firstname" placeholder="" required/>
@@ -79,15 +79,14 @@
 			        <fieldset class="pure-group">
 					<label for="rulesgroup">IFRR Rules:  <a href="http://indivisiblefrr.org/about.html">
 						http://indivisiblefrr.org/about.html</a>
-						Do you agree?  (Y/N)</label>
+						Do you agree?  (Y/N)</label><br>
   					<input type="radio" name="rulesgroup" id="rules_yes" value="Yes" required>Yes<br>
   		
   					<input type="radio" name="rulesgroup" id="rules_no" value="No">No<br>
 			    	</fieldset>
 				<fieldset class="pure-group">
-					<label for="COresident">Are you either a CO resident or CO registered voter?  (Y/N)</label>
+					<label for="COresident">Are you either a CO resident or CO registered voter?  (Y/N)</label><br>
   					<input type="radio" name="COresident" id="COresident_yes" value="Yes" required>Yes<br>
-  		
   					<input type="radio" name="COresident" id="COresident_no" value="No">No<br>
 					<span id="COresident-invalid" style="visibility:hidden">
 					You must check one of these options</span>
