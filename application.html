@@ -64,13 +64,15 @@
       				        <input id="Firstname" name="Firstname" placeholder="" required/>
     			        </fieldset>
 				<fieldset class="pure-group">
-					<label for="Lastname">Last Name: <font color="red">*</font></label>
+					<label for="Lastname">Last Name: </label>
 					<input id="Lastname" name="Lastname" placeholder="" />
 				</fieldset>
 			        <fieldset class="pure-group">
 					<label for="facebooklink"><em>Your</em> Facebook Page (this is how we find you on facebook!):<font color="red">*</font></label>
 					<textarea id="facebooklink" name="facebooklink" rows="1" cols="60"
 					required placeholder="www.facebook.com/your.name"></textarea>
+					<span id="email-invalid" style="visibility:hidden">
+					You must have the right email</span>
 			    	</fieldset>
 			        <fieldset class="pure-group">
 					<label for="rulesgroup">IFRR Rules:  <a href="http://indivisiblefrr.org/about.html">
